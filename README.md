@@ -2,7 +2,7 @@
 Graduation project for the Cloud Security track under the supervision of Digital Egypt Pioneers Initiative (DEPI).
 ![Project Banner](https://github.com/user-attachments/assets/ffeb7372-7e91-4b57-b3f9-d6fee4416191)
 ## Team
-- Marwa Abdullah Ouf Elzoghby
+-  [Marwa Abdullah Ouf Elzoghby](https://github.com/marwa-elzoghby⁠)
 - Nadine Amr Sayed Fahmy
 -  [Omar Mohsen Emam Youssef](https://github.com/OmarMohsen9)
 - Zyad Ahmed Mahmoud Ibrahim
