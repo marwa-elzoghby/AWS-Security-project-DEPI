@@ -1,57 +1,62 @@
-# AWS Data Protection, Encryption & Privacy Compliance
+# Team Follow-Up Application: AWS Data Protection, Encryption & Privacy Compliance Project
+Graduation project for the Cloud Security track under the supervision of Digital Egypt Pioneers Initiative (DEPI).
 
-Graduation project for the Digital Egypt Pioneers Initiative (DEPI), Cloud Security track.
-
-We build a complete data protection setup on AWS: classify data, encrypt it at rest and in transit, manage keys and secrets, find sensitive data automatically, and map everything to GDPR, HIPAA, and PCI-DSS. All testing uses synthetic data only.
-
+![Project Banner](<img width="1376" height="768" alt="Gemini_Generated_Image_oja54yoja54yoja5" src="https://github.com/user-attachments/assets/ffeb7372-7e91-4b57-b3f9-d6fee4416191" />)
 ## Team
-
 - Marwa Abdullah Ouf Elzoghby
 - Nadine Amr Sayed Fahmy
-- Omar Mohsen Emam Youssef
+-  [Omar Mohsen Emam Youssef](https://github.com/OmarMohsen9)
 - Zyad Ahmed Mahmoud Ibrahim
 - Dina Bahy Mostafa El-shiekh
 - Haneen Mosad Mohammed Elgebaly
-
-Instructor: Samah Esia
-
-## What We Build
-
-| Week | Focus | Main deliverables |
-|---|---|---|
-| 1 | Data lifecycle, classification, S3 security | Classification scheme, S3 secure baseline, bucket policies, lifecycle policy |
-| 2 | Encryption at rest and key management | KMS key hierarchy, key policies, encrypted data stores, KMS lab evidence |
-| 3 | Encryption in transit, secrets, API protection | TLS/ACM setup, secrets rotation design, API security controls |
-| 4 | Data in use, DLP, privacy, compliance | Macie findings report, DLP plan, compliance control matrix, risk register |
-
-## AWS Services Used
-
-S3, KMS, RDS, DynamoDB, EBS, Glacier, ACM, Secrets Manager, Parameter Store, API Gateway, Macie, GuardDuty, CloudTrail, Security Hub, IAM, Access Analyzer.
-
-CloudHSM is covered as a concept only.
-
-## Repository Structure
-
-```
-.
-├── docs/         # Proposal and final report
-├── terraform/    # Infrastructure as code
-├── evidence/     # Screenshots and lab results
-└── README.md
-```
-
-## Getting Started
-
-```bash
-git clone https://github.com/marwa-elzoghby/AWS-Security-project-DEPI.git
-cd AWS-Security-project-DEPI
-git pull
-```
-
-Before you push, always run `git pull` first so you don't overwrite a teammate's work.
-
-## Important Notes
-
-- Use synthetic (fake) data only. Never upload real personal or payment data.
-- Never commit AWS access keys, secrets, or `.tfstate` files.
-- Delete AWS resources after each lab to avoid unexpected costs.
+####Instructor: Samah Eisa
+## Architecture
+![arch Banner](<img width="1024" height="674" alt="b7e29331-bac7-41dd-bbd9-8d5009bb91d6" src="https://github.com/user-attachments/assets/4783a52f-7c9b-41e8-b6c0-8bcb37911d15" />)
+## Project Overview
+The Team Follow-Up Application helps team members track work, manage assignments, and keep an activity history of updates. The frontend is hosted using **AWS Amplify**, while AWS serverless services provide authentication, API access, data storage, and monitoring.
+## Project Objectives
+- Develop a centralized web application for managing team projects, work items, assignments, and follow-ups.
+- Improve team coordination and visibility into task ownership and progress.
+- Maintain an auditable history of application activities and data changes.
+- Provide authenticated access to shared project information across desktop and mobile devices.
+- Establish a scalable, serverless architecture with operational visibility into application health.
+## Project Scope
+- **Frontend:** Host and deliver the static web dashboard through AWS Amplify.
+- **Authentication:** Manage user sign-in and issue JWT tokens using Amazon Cognito.
+- **API Layer:** Expose authenticated REST endpoints through Amazon API Gateway.
+- **Backend Processing:** Implement request validation, business logic, and hierarchy enforcement using AWS Lambda.
+- **Data Storage:** Maintain work items, assignments, and activity history in Amazon DynamoDB.
+- **Observability:** Collect application logs and metrics and configure alarms using Amazon CloudWatch.
+## Project Plan
+### Week 1 — Frontend & AWS Foundation
+* **Tasks:**
+  - Initialize the repository structure and base HTML/CSS layout.
+  - Configure AWS Amplify for static frontend hosting and CDN routing.
+  - Establish UI design components for task tracking and dashboard views.
+* **Deliverables:**
+  - Deployed static frontend prototype accessible via Amplify.
+  - Initial repository layout and styling assets.
+### Week 2 — Authentication & API
+* **Tasks:**
+  - Set up an Amazon Cognito User Pool for team identity management and sign-in.
+  - Create the Amazon API Gateway HTTP/REST API endpoints.
+  - Implement JWT authorizer rules to secure API routes.
+* **Deliverables:**
+  - Configured Cognito user authentication flow.
+  - Functional API Gateway routing with active token validation.
+### Week 3 — Data & Application Integration
+* **Tasks:**
+  - Develop AWS Lambda functions to handle backend requests, validate hierarchies, and process queries.
+  - Create Amazon DynamoDB tables for storing work items, assignments, and activity history.
+  - Connect the frontend and API layers to perform end-to-end data read/write operations.
+* **Deliverables:**
+  - Deployed Lambda backend logic.
+  - Operational DynamoDB tables tracking tasks and activity events.
+### Week 4 — Testing & Observability
+* **Tasks:**
+  - Configure Amazon CloudWatch log groups, metrics, and operational alarms.
+  - Perform end-to-end integration testing across authentication, API, and storage layers.
+  - Finalize documentation and repository instructions.
+* **Deliverables:**
+  - Active CloudWatch monitoring and error logs.
+  - Fully tested, production-ready serverless deployment workflow.
