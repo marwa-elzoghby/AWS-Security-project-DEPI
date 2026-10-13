@@ -1,7 +1,7 @@
 # Team Follow-Up Application: AWS Data Protection, Encryption & Privacy Compliance Project
 Graduation project for the Cloud Security track under the supervision of Digital Egypt Pioneers Initiative (DEPI).
 
-![Project Banner](<img width="1376" height="768" alt="Gemini_Generated_Image_oja54yoja54yoja5" src="https://github.com/user-attachments/assets/ffeb7372-7e91-4b57-b3f9-d6fee4416191" />)
+![Project Banner](https://github.com/user-attachments/assets/ffeb7372-7e91-4b57-b3f9-d6fee4416191)
 ## Team
 - Marwa Abdullah Ouf Elzoghby
 - Nadine Amr Sayed Fahmy
@@ -11,7 +11,7 @@ Graduation project for the Cloud Security track under the supervision of Digital
 - Haneen Mosad Mohammed Elgebaly
 ####Instructor: Samah Eisa
 ## Architecture
-![arch Banner](<img width="1024" height="674" alt="b7e29331-bac7-41dd-bbd9-8d5009bb91d6" src="https://github.com/user-attachments/assets/4783a52f-7c9b-41e8-b6c0-8bcb37911d15" />)
+![arch Banner](https://github.com/user-attachments/assets/93655534-49e3-4756-9cab-b05330023960)
 ## Project Overview
 The Team Follow-Up Application helps team members track work, manage assignments, and keep an activity history of updates. The frontend is hosted using **AWS Amplify**, while AWS serverless services provide authentication, API access, data storage, and monitoring.
 ## Project Objectives
