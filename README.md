@@ -1,6 +1,5 @@
 # Team Follow-Up Application: AWS Data Protection, Encryption & Privacy Compliance Project
 Graduation project for the Cloud Security track under the supervision of Digital Egypt Pioneers Initiative (DEPI).
-
 ![Project Banner](https://github.com/user-attachments/assets/ffeb7372-7e91-4b57-b3f9-d6fee4416191)
 ## Team
 - Marwa Abdullah Ouf Elzoghby
@@ -9,7 +8,7 @@ Graduation project for the Cloud Security track under the supervision of Digital
 - Zyad Ahmed Mahmoud Ibrahim
 - Dina Bahy Mostafa El-shiekh
 - Haneen Mosad Mohammed Elgebaly
-####Instructor: Samah Eisa
+#### Instructor: Samah Eisa
 ## Architecture
 ![arch Banner](https://github.com/user-attachments/assets/93655534-49e3-4756-9cab-b05330023960)
 ## Project Overview
