@@ -5,7 +5,7 @@ Graduation project for the Cloud Security track under the supervision of Digital
 -  [Marwa Abdullah Ouf Elzoghby](https://github.com/marwa-elzoghby⁠)
 - Nadine Amr Sayed Fahmy
 -  [Omar Mohsen Emam Youssef](https://github.com/OmarMohsen9)
-- Zyad Ahmed Mahmoud Ibrahim
+-  [Zyad Ahmed Mahmoud Ibrahim](https://github.com/retzed)
 - Dina Bahy Mostafa El-shiekh
 - Haneen Mosad Mohammed Elgebaly
 #### Instructor: Samah Eisa
